@@ -5,7 +5,7 @@ in1 = str(input())
 if in1 == "1":
     title = input("Enter title:")
     season = input("Enter the Season (format: XX)")
-    print("Copy your folder into the into the root and enter its name:")
+    print("Copy your folder into the into the root and enter its name:( Enter . if they are not in a folder)")
     oldfolder = input()
     path = oldfolder + "\\"
     for filename in os.listdir(path):
